@@ -1,3 +1,23 @@
 body{
     background-color: gray;
 }
+  :root{
+    --fonte-titulo:"bebas neue",sans-serif;
+    --rosa:hotpink;
+    --ouro:gold;
+    --cinza:gray;
+    --verde:chartreuse;
+    --azul-claro:cornflowerblue;
+  }
+  .conteudo-titulo{
+    font-family:var(--fonte-titulo);
+    text-align:center;
+    font-size:30px;
+    display:flex;
+    align-intems:center;
+    justify-content:space-around;
+    color:var(--rosa);
+  }
+ #campo-senha{
+    
+
